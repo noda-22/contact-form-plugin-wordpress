@@ -1,0 +1,28 @@
+form h1.wpform-header {
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+form h3 {
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form input {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 45px;
+}
+
+form textarea {
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+/* form button {
+    margin-bottom: 15px;
+    width: 300px;
+    padding: 5px;
+} */
