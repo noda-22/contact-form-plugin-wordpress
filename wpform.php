@@ -57,16 +57,6 @@ function wpform_create_admin_menu() {
         'dashicons-admin-customizer', // icon url - url till den icon som ska användas
         100 // position (längst ner i menyn)
     );
-
-    // UNDERMENY
-    // add_submenu_page(
-    //     'wpform-options', // parent slug
-    //     'WP Form', // page title
-    //     'Do something', // menu title - Menyalternativet som användaren kan klicka på
-    //     'manage_options', // capability/rättigheter
-    //     'do-something', // menu slug
-    //     'wpform_display_admin' // vilken funktion som ska köras
-    // );
 }
 
 add_action('admin_menu','wpform_create_admin_menu');
