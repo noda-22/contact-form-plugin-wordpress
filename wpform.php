@@ -171,8 +171,7 @@ function wpform_send_mail() {
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    // $to = get_option('admin_email'); // Hämtar administratörens mailadress
-    $to = 'nora.darejati@hotmail.com';
+    $to = get_option('admin_email'); // Hämtar administratörens mailadress
     $headers = [
         "Content-Type: text/plain; charset=UTF-8",
         "From: $name <$email>"
